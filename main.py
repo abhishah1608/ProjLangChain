@@ -22,5 +22,5 @@ if cuisine_name:
             menu_list = r['menu_items']
             for menu in menu_list:
                 st.write(f"• {menu['menu_item']} ⭐ {menu['rating']}")
-             
+
 
